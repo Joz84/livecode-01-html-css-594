@@ -1,0 +1,52 @@
+.card-container{
+  width: 250px;
+}
+
+.card{
+  padding: 15px;
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: 0 10px 30px grey;
+}
+
+.card-img{
+  width: 100%;
+  height: 230px;
+  background-image: url("https://source.unsplash.com/random");
+  background-size: cover;
+  background-position: center;
+}
+
+.btn{
+  padding: 8px 16px;
+  background-color: #fff;
+  border-radius: 6px;
+  margin: 10px;
+  display: inline-block;
+  opacity: 0;
+  transition: .2s ease;
+}
+
+.card:hover .btn{
+  opacity: 1;
+}
+
+.card-user{
+  width: 100%;
+  padding: 15px;
+}
+
+.card-user img{
+  width: 60px;
+  border-radius: 50%;
+  height: 60px;
+  object-fit: cover;
+}
+
+.card-user a{
+  font-size: 18px;
+}
+
+.card ul {
+  text-align: right;
+}
